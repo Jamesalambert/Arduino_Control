@@ -17,6 +17,9 @@ Turning it off would be done like this
 -40^
 ```
 
+# Design
+The code implements a finite state machine described in the accompanying pdf.
+
 ## Caveats
 1. Ensure the transmitting device is set to the same baud rate as the Arduino.
 1. Ensure the Arduino and the transmitting device agree on the start and end symbols.
